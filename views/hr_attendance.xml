@@ -5,7 +5,7 @@
             <field name="name">hr.attendance.form.inherit.project</field>
             <field name="model">hr.attendance</field>
             <field name="inherit_id" ref="hr_attendance.hr_attendance_view_form"/>
-            <field name="groups_id" eval="[(4, ref('hr_attendance.group_hr_attendance_user'))]"/>
+            <field name="groups_id" eval="[(4, ref('hr_attendance.group_hr_attendance_officer'))]"/>
             <field name="arch" type="xml">
                 <field name="check_out" position="after">
                     <field name="project_id"/>
